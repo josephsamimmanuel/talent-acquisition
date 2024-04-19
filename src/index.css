@@ -1,13 +1,260 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #EBECF0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.flex-with-header{
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.94);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.sideheader-container{
+    margin-top: 50px;
+    display: flex;
+}
+.sideheader-components{
+    margin-top: 50px;
+    display: flex;
+}
+.flex-with-center{
+    display: flex;
+    justify-content: start ;
+    align-items: center;
+    width: 50%;
+    gap: 20px;
+}
+.flex-with-center input{
+    outline: none;
+}
+.searchbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+}
+.search{
+    position: absolute; /* Position the image absolutely */
+    top: 25%; /* Position from the top */
+    left: 90%; /* Position from the left */
+}
+.flex-with-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 50%;
+    gap: 40px;
+}
+.sideheader{
+    height: 330vh;
+    width: 10vw;
+    border: solid 1px rgba(255, 255, 255, 0.94);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.94);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
+}
+.HrEmployee-container-main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.HrEmployee-containerApp{
+    display: flex;
+    gap: 10px;
+}
+.HrEmployee-container{
+    display: flex;
+    gap: 600px;
+}
+.HrEmployee-container-header{
+    display: flex;
+    gap: 50px;
+}
+.HrEmployee-container-title button{
+    border: solid 1px blue;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+.HrEmployee-container-AppInfo button{
+    border: solid 1px blue;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #6b6bf9d7;
+    color: white;
+}
+.HrEmployee-container-AppInfo{
+    height: 400px;
+    width: 700px;
+    background-color:  rgba(255, 255, 255, 0.94);
+}
+.meeting-container-AppInfo-candidate1{
+    height: 55vh;
+    width: 40vw;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.94);;
+    border: 2px solid black;
+}
+.meeting-container-AppInfo-candidate1-box{
+    height: 54vh;
+    width: 15vw;
+    border-right: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.94);;
+}
+.calander-container-AppInfo{
+    height: 200px;
+    width: 390px;
+    background-color:  rgba(255, 255, 255, 0.94);
+    margin-top: 50px;
+}
+.upcomings-container-AppInfo{
+    height: 380px;
+    width: 390px;
+    background-color:  rgba(255, 255, 255, 0.94);
+    margin-top: 50px;
+}
+.activity-container-AppInfo{
+    height: 500px;
+    width: 390px;
+    background-color:  rgba(255, 255, 255, 0.94);
+    margin-top: 50px;
+}
+.post1-container-AppInfo{
+    height: 300px;
+    width: 225px;
+    background-color:  #EBECF0;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.post1-container-contents{
+    display: flex;
+}
+.post1-container-AppInfo-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.post1-container-AppInfo-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.post1{
+    border-radius: 20px;
+}
+.hiringcandidates-container-AppInfo{
+    height: 500px;
+    width: 390px;
+    background-color:  rgba(255, 255, 255, 0.94);
+    margin-top: 50px;
+}
+.candidate-container-AppInfo{
+    height: 500px;
+    width: 65vw;
+    background-color:  rgba(255, 255, 255, 0.94);
+}
+.HrEmployee-container-AppInfo-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 20px;
+}
+.Jobs-container-AppInfo-title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.candidatename-container-AppInfo-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+}
+.candidatename2-container-AppInfo-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding-top: 20px;
+}
+.candidate-container-AppInfo-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+.meeting-container-AppInfo-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.meetingsinfo-container-AppInfo-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding-top: 20px; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.meeting-container-AppInfo-candidate1{
+    display: flex;
+}
+.assesments{
+    display: flex;
+    gap: 20px;
+}
+.assesments1{
+    padding: 40px;
+    position: relative; /* Make the container a reference point for positioning */
+    border: 1px solid black;
+}
+.assesments1-absolute{
+    position: absolute; /* Position the image absolutely */
+    top: 0%; /* Position from the top */
+    left: 35%; /* Position from the left */
+}
+.assesments2{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    padding: 40px;
+}
+.assesments2 button{
+    border: solid 1px blue;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
 }
