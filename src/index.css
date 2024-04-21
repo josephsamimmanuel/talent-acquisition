@@ -150,8 +150,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .post1-container-AppInfo-body{
     display: flex;

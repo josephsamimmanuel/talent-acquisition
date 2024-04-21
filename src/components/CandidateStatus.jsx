@@ -79,20 +79,7 @@ function CandidateStatus() {
               <GrView/>
             </div>
             <hr />
-
           </div>
-          {/* <div className="HrEmployee-container-AppInfo" style={{ backgroundColor: "#6b6bf9d7" }}>
-            <div className='flex-assesments'>
-              <div className='assesments1'>
-                <MdOutlineTextSnippet style={{ fontSize: '5em', backgroundColor: "white" }} />
-                <h1 style={{ paddingTop: "60px", color: "white" }}>0033</h1>
-              </div>
-              <div className='assesments2'>
-                <p style={{ color: "white", fontSize: "larger" }}>New Assesments</p>
-                <button>View Details</button>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>

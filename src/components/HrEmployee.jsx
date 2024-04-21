@@ -18,8 +18,8 @@ function HrEmployee() {
         <div className="HrEmployee-container-AppInfo">
           <div className="HrEmployee-container-AppInfo-title">
             <h5>Application Info</h5>
-            <input type="checkbox" /> Received
-            <input type="checkbox" /> Processed
+            <input type="checkbox" value={"reveived"} name='check-recieved'/> Received
+            <input type="checkbox" value={"processed"} name='check-processed'/> Processed
             <select name="" id="">
               <option value="Month">Month</option>
               <option value="January">January</option>
