@@ -101,6 +101,7 @@ function PostedJobs() {
                 <p style={{ fontSize: "xx-small" }}>6 mins ago</p>
               </div>
             </div>
+            
             <div className="post1-container-AppInfo">
               <div className="post1-container-AppInfo-title">
                 <SiAffinitydesigner style={{ fontSize: '1.5em' }} />
